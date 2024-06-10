@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: white;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+header h2{
+    color: #F595AA;
+    font-size: 50px;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    padding-top: 20px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #F595AA;
+}
+
+main #sobre{
+    background-color: #C48B7A;
+}
+main #sobre h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+main #sobre p{
+    color: white;
+    font-size: 30px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+main #produtos .tricotin{
+    background-color: #EDE2D7;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main #produtos img{
+    width: 200px;
+}
+
+main #produtos .tricotin .estrela{
+    border: 5px solid black;
+    margin-right: 20px;
+}
+
+main #produtos .luminarias{
+    background-color: #C48B7A;
+}
+
+main #produtos .MDF{
+    background-color: #EDE2D7;
+}
+
+#entrega{
+    background-color: #C48B7A;
+}
+
+footer{
+    background-color: #EDE2D7;
+}
