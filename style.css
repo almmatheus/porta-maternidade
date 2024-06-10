@@ -46,6 +46,7 @@ main #sobre p{
 
 main #produtos .tricotin{
     background-color: #EDE2D7;
+    color: #692B39;
     display: flex;
     flex-wrap: wrap;
 }
@@ -61,16 +62,20 @@ main #produtos .tricotin .estrela{
 
 main #produtos .luminarias{
     background-color: #C48B7A;
+    color: #fff;
 }
 
 main #produtos .MDF{
     background-color: #EDE2D7;
+    color: #692B39;
 }
 
 #entrega{
     background-color: #C48B7A;
+    color: #fff;
 }
 
 footer{
     background-color: #EDE2D7;
+    color: #692B39;
 }
