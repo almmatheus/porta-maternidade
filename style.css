@@ -30,15 +30,22 @@ header nav ul li a{
 
 main #sobre{
     background-color: #C48B7A;
+    display: flex;
+    flex-wrap: wrap;
+
 }
+
+main #sobre div{
+    flex: 1;
+}
+
 main #sobre h1{
     color: white;
     font-size: 50px;
-    text-align: center;
 }
 
 main #sobre img{
-    width: 200px;
+    width: 400px;
 }
 
 main #sobre p{
