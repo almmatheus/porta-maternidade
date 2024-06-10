@@ -37,6 +37,10 @@ main #sobre h1{
     text-align: center;
 }
 
+main #sobre img{
+    width: 200px;
+}
+
 main #sobre p{
     color: white;
     font-size: 30px;
