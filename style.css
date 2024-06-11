@@ -39,16 +39,28 @@ main #sobre div{
     flex: 1;
 }
 
+main #sobre .titulo{
+    /* margin: 50px 100px; */
+    padding: 50px 50px;
+}
+
+main #sobre .paragrafo{
+    margin: 100px;
+}
+
 main #sobre h1{
     color: white;
     font-size: 50px;
+    text-align: center;
 }
 
-main #sobre img{
-    width: 400px;
+main #sobre .titulo img{
+    width: 350px;
+    padding-left: 80px;
+    border-radius: 8px;
 }
 
-main #sobre p{
+main #sobre .paragrafo p{
     color: white;
     font-size: 30px;
     padding-bottom: 20px;
