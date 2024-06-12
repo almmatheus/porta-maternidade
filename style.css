@@ -1,9 +1,11 @@
+/* Reset e configuração geral */
 *{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Estilo do Header */
 header{
     background-color: white;
     display: flex;
@@ -28,6 +30,8 @@ header nav ul li a{
     color: #F595AA;
 }
 
+/* Estilo da parte main */
+
 main #sobre{
     background-color: #C48B7A;
     display: flex;
@@ -50,13 +54,14 @@ main #sobre .paragrafo{
 main #sobre h1{
     color: white;
     font-size: 50px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
 main #sobre .titulo img{
     width: 350px;
-    padding-left: 80px;
-    border-radius: 8px;
+    margin-left: 80px;
+    border-radius: 5px;
 }
 
 main #sobre .paragrafo p{
@@ -97,6 +102,7 @@ main #produtos .MDF{
     color: #fff;
 }
 
+/* Estilo do Footer */
 footer{
     background-color: #EDE2D7;
     color: #692B39;
