@@ -5,7 +5,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Estilo do Header */
+/* Estilo geral do Header */
 header{
     background-color: white;
     display: flex;
@@ -30,8 +30,7 @@ header nav ul li a{
     color: #F595AA;
 }
 
-/* Estilo da parte main */
-
+/* Estilo da section sobre */
 main #sobre{
     background-color: #C48B7A;
     display: flex;
@@ -71,6 +70,7 @@ main #sobre .paragrafo p{
     text-align: left;
 }
 
+/* Estilo da section produtos */
 main #produtos .tricotin{
     background-color: #EDE2D7;
     color: #692B39;
@@ -97,6 +97,7 @@ main #produtos .MDF{
     color: #692B39;
 }
 
+/* Estilo da section entrega*/
 #entrega{
     background-color: #C48B7A;
     color: #fff;
