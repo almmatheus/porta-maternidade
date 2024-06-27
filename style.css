@@ -68,7 +68,7 @@ main #sobre .paragrafo p{
     text-align: left;
 }
 
-/* Estilo da section produtos */
+/* Estilo da section produtos - tricotin */
 main #produtos .tricotin{
     background-color: #EDE2D7;
     color: #692b39;
@@ -125,6 +125,7 @@ main #produtos img{
     border-radius: 5px;
 }
 
+/* Estilo da sessão produtos - guirlanda */
 main #produtos .guirlanda{
     display: flex;
     flex-wrap: wrap;
@@ -167,11 +168,13 @@ main #produtos .guirlanda .produto button{
     left: 65px;
 }
 
+/* Estilo da sessão produtos - luminarias */
 main #produtos .luminarias{
     background-color: #C48B7A;
     color: #fff;
 }
 
+/* Estilo da sessão produtos - MDF */
 main #produtos .MDF{
     background-color: #EDE2D7;
     color: #692B39;
