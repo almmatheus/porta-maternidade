@@ -35,7 +35,6 @@ main #sobre{
     background-color: #C48B7A;
     display: flex;
     flex-wrap: wrap;
-
 }
 
 main #sobre div{
@@ -66,26 +65,50 @@ main #sobre .titulo img{
 main #sobre .paragrafo p{
     color: white;
     font-size: 30px;
-    padding-bottom: 20px;
     text-align: left;
 }
 
 /* Estilo da section produtos */
 main #produtos .tricotin{
     background-color: #EDE2D7;
-    color: #692B39;
+    color: #692b39;
+}
+
+main #produtos .tricotin h2{
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 40px;
+}
+
+main #produtos .tricotin p{
+    font-size: 25px;
+    text-align: justify;
+    padding: 30px 20px;
+}
+
+main #produtos .prod{
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+main #produtos .prod .card1, .card2{
+    background-color: #fff;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+    border: 2px solid black;
+    border-radius: 5px;
 }
 
 main #produtos img{
     width: 200px;
+    justify-content: left;
+    border-radius: 5px;
 }
 
-main #produtos .tricotin .estrela{
-    border: 5px solid black;
-    margin-right: 20px;
-}
 
 main #produtos .luminarias{
     background-color: #C48B7A;
