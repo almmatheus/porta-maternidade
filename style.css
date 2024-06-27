@@ -87,13 +87,13 @@ main #produtos .tricotin p{
     padding: 30px 20px;
 }
 
-main #produtos .prod{
+main #produtos .tricotin .prod{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-main #produtos .prod .card1, .card2{
+main #produtos .tricotin .prod .card1, .card2{
     background-color: #fff;
     padding: 20px;
     justify-content: center;
@@ -105,10 +105,50 @@ main #produtos .prod .card1, .card2{
 
 main #produtos img{
     width: 200px;
-    justify-content: left;
     border-radius: 5px;
 }
 
+main #produtos .guirlanda{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main #produtos .guirlanda h2{
+    width: 100%;
+}
+
+main #produtos .guirlanda .guirlanda-paragrafo p{
+    font-size: 29px;
+}
+
+main #produtos .guirlanda .boneca-balao{
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+main #produtos .guirlanda .boneca-balao img{
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+main #produtos .guirlanda .boneca-balao p{
+    font-size: 25px;
+}
+
+main #produtos .guirlanda .boneca-balao button{
+    background-color: #692B39;
+    color: #EDE2D7;
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+    border: 5px solid #fff;
+    border-radius: 8px;
+    position: relative;
+    left: 65px;
+}
 
 main #produtos .luminarias{
     background-color: #C48B7A;
