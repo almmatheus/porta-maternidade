@@ -206,8 +206,9 @@ main #produtos .luminarias .prod{
 }
 
 .produto p{
-    font-size: 25px;
+    font-size: 20px;
     color: #692B39;
+    text-align: center;
 }
 
 .produto button{
@@ -227,6 +228,26 @@ main #produtos .MDF{
     background-color: #EDE2D7;
     color: #692B39;
 }
+
+.MDF h2{
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.MDF p{
+    font-size: 20px;
+    padding: 20px;
+}
+
+.prod{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /* Estilo da section entrega*/
 #entrega{
