@@ -259,4 +259,37 @@ main #produtos .MDF{
 footer{
     background-color: #EDE2D7;
     color: #692B39;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer h2{
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+footer p{
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.info{
+    margin-right: 50px;
+}
+
+.social ul li a ion-icon{
+    color: #692B39;
+    font-size: 40px;
+}
+
+.footer{
+    width: 100%;
+    margin: 50px auto;
+    text-align: center;
+    border-top: 1px solid white;
+    padding-top: 30px;
 }
