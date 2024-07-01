@@ -192,6 +192,36 @@ main #produtos .luminarias .prod{
     align-items: center;
 }
 
+.produto{
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.produto img{
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.produto p{
+    font-size: 25px;
+    color: #692B39;
+}
+
+.produto button{
+    background-color: #692B39;
+    color: #EDE2D7;
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+    border: 5px solid #fff;
+    border-radius: 8px;
+    position: relative;
+    left: 65px;
+}
+
 /* Estilo da sessão produtos - MDF */
 main #produtos .MDF{
     background-color: #EDE2D7;
