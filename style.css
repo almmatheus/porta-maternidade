@@ -15,7 +15,7 @@ header{
 }
 
 header h2{
-    color: #F595AA;
+    color: #692B39;
     font-size: 50px;
 }
 
@@ -27,7 +27,8 @@ header nav ul li{
 
 header nav ul li a{
     text-decoration: none;
-    color: #F595AA;
+    color: #692B39;
+    font-size: 25px;
 }
 
 /* Estilo da section sobre */
