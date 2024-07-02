@@ -31,38 +31,38 @@ header nav ul li a{
 }
 
 /* Estilo da section sobre */
-main #sobre{
+#sobre{
     background-color: #C48B7A;
     display: flex;
     flex-wrap: wrap;
 }
 
-main #sobre div{
+#sobre div{
     flex: 1;
 }
 
-main #sobre .titulo{
+.titulo{
     padding: 50px 50px;
 }
 
-main #sobre .paragrafo{
+.paragrafo{
     margin: 100px;
 }
 
-main #sobre h1{
+#sobre h1{
     color: white;
     font-size: 50px;
     margin-bottom: 20px;
     text-align: center;
 }
 
-main #sobre .titulo img{
+.titulo img{
     width: 350px;
     margin-left: 80px;
     border-radius: 5px;
 }
 
-main #sobre .paragrafo p{
+.paragrafo p{
     color: white;
     font-size: 30px;
     text-align: left;
@@ -74,157 +74,55 @@ main #sobre .paragrafo p{
     color: #692b39;
 }
 
-main #produtos .tricotin h2{
+.tricotin h2{
     width: 100%;
     text-align: center;
     font-size: 50px;
     padding-top: 40px;
 }
 
-main #produtos .tricotin p{
+.tricotin p{
     font-size: 25px;
     text-align: justify;
     padding: 30px 20px;
 }
 
-main #produtos .tricotin .prod{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-main #produtos .tricotin .prod .produto{
-    background-color: #fff;
-    padding: 20px;
-    justify-content: center;
-    align-items: center;
-    margin: 0 20px;
-    border-radius: 5px;
-}
-
-main #produtos .tricotin .prod .produto img{
-    position: relative;
-    left: 10px;
-}
-
-main #produtos .tricotin .prod .produto button{
-    background-color: #692B39;
-    color: #EDE2D7;
-    width: 100px;
-    padding: 10px;
-    margin: 10px;
-    border: 5px solid #fff;
-    border-radius: 8px;
-    position: relative;
-    left: 50px;
-}
-
-main #produtos img{
-    width: 200px;
-    border-radius: 5px;
-}
-
 /* Estilo da sessão produtos - guirlanda */
-main #produtos .guirlanda{
+.guirlanda{
     display: flex;
     flex-wrap: wrap;
 }
 
-main #produtos .guirlanda h2{
+.guirlanda h2{
     width: 100%;
 }
 
-main #produtos .guirlanda .guirlanda-paragrafo p{
-    font-size: 29px;
+.guirlanda-paragrafo p{
+    font-size: 30px;
 }
 
-main #produtos .guirlanda .produto{
-    background-color: #fff;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-}
-
-main #produtos .guirlanda .produto img{
-    padding: 20px;
-    border-radius: 10px;
-    width: 200px;
-}
-
-main #produtos .guirlanda .produto p{
-    font-size: 25px;
-}
-
-main #produtos .guirlanda .produto button{
-    background-color: #692B39;
-    color: #EDE2D7;
-    width: 100px;
-    padding: 10px;
-    margin: 10px;
-    border: 5px solid #fff;
-    border-radius: 8px;
-    position: relative;
-    left: 65px;
-}
 
 /* Estilo da sessão produtos - luminarias */
-main #produtos .luminarias{
+.luminarias{
     background-color: #C48B7A;
     color: #fff;
 }
 
-main #produtos .luminarias h2{
+.luminarias h2{
     width: 100%;
     text-align: center;
     font-size: 50px;
     padding-top: 40px;
 }
 
-main #produtos .luminarias p{
+.luminarias p{
     font-size: 25px;
     text-align: justify;
     padding: 30px 20px;
 }
 
-main #produtos .luminarias .prod{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.produto{
-    background-color: #fff;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-}
-
-.produto img{
-    padding: 20px;
-    border-radius: 10px;
-    width: 200px;
-}
-
-.produto p{
-    font-size: 20px;
-    color: #692B39;
-    text-align: center;
-}
-
-.produto button{
-    background-color: #692B39;
-    color: #EDE2D7;
-    width: 100px;
-    padding: 10px;
-    margin: 10px;
-    border: 5px solid #fff;
-    border-radius: 8px;
-    position: relative;
-    left: 65px;
-}
-
 /* Estilo da sessão produtos - MDF */
-main #produtos .MDF{
+.MDF{
     background-color: #EDE2D7;
     color: #692B39;
 }
@@ -246,6 +144,38 @@ main #produtos .MDF{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.produto{
+    background-color: #fff;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 20px;
+    border-radius: 5px;
+}
+
+.produto img{
+    width: 200px;
+    border-radius: 5px;
+}
+
+.produto p{
+    font-size: 17px;
+    color: #692B39;
+    text-align: center;
+}
+
+.produto button{
+    background-color: #692B39;
+    color: #EDE2D7;
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+    border: 5px solid #fff;
+    border-radius: 8px;
+    position: relative;
+    left: 40px;
 }
 
 
@@ -281,9 +211,19 @@ footer p{
     margin-right: 50px;
 }
 
+.social ul {
+    display: flex;
+    justify-content: center;
+}
+
+.social ul li{
+    list-style-type: none;
+}
+
 .social ul li a ion-icon{
     color: #692B39;
     font-size: 40px;
+    margin-right: 20px;
 }
 
 .footer{
