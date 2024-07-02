@@ -206,6 +206,11 @@ header nav ul li a{
     left: 40px;
 }
 
+.produto button:hover {
+    background-color: #79152c;
+    color: #EDE2D7;
+}
+
 
 /* Estilo da section entrega*/
 .toy-story{
@@ -227,6 +232,10 @@ header nav ul li a{
     font-size: 30px;
     margin-bottom: 20px;
     margin-left: 25px;
+}
+
+.ty-paragrafo p {
+    margin-bottom: 20px;
 }
 
 /* Estilo do Footer */
