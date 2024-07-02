@@ -6,6 +6,7 @@
     <title>Porta Maternidade</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="art-icon.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -44,64 +45,71 @@
         </section>
 
         <section id="dona">
-            <div class="titulo">
-                <h2>Sobre mim</h2>
-                <img src="IMG/perfil-dona.png" alt="Foto da dona.">
+            <div data-aos="fade-right">
+                <div class="titulo">
+                    <h2>Sobre mim</h2>
+                    <img src="IMG/perfil-dona.png" alt="Foto da dona.">
+                </div>
             </div>
 
-            <div class="paragrafo-dona">
-                <p>
-                    Olá! Meu nome é Thais Almeida, tenho 40 anos e sou mãe de duas filhas incríveis. 
-                    Sou formada em administração e trabalhei por muitos anos como gerente de comércio. 
-                    Sou uma pessoa que encontra alegria nas pequenas coisas da vida e adoro explorar diferentes 
-                    formas de criatividade.
-                </p>
-                <p>
-                    Tenho uma paixão por filmes e séries, que me transportam para mundos 
-                    novos e estimulam minha imaginação. Amo viajar e conhecer novas culturas, o que sempre me 
-                    traz inspiração e novas perspectivas. Passeios no parque são um dos meus passatempos favoritos, 
-                    pois me permitem relaxar e apreciar a beleza da natureza.
-                </p>
-                <p>
-                    Essas experiências pessoais e paixões 
-                    influenciam e enriquecem meu trabalho como artesã. Cada peça que crio é um reflexo do meu amor 
-                    pelo artesanato e das diversas inspirações que encontro no meu dia a dia. Seja bem-vindo(a) ao meu mundo!
-                </p>
+            <div data-aos="fade-left">
+                <div class="paragrafo-dona">
+                    <p>
+                        Olá! Meu nome é Thais Almeida, tenho 40 anos e sou mãe de duas filhas incríveis. 
+                        Sou formada em administração e trabalhei por muitos anos como gerente de comércio. 
+                        Sou uma pessoa que encontra alegria nas pequenas coisas da vida e adoro explorar diferentes 
+                        formas de criatividade.
+                    </p>
+                    <p>
+                        Tenho uma paixão por filmes e séries, que me transportam para mundos 
+                        novos e estimulam minha imaginação. Amo viajar e conhecer novas culturas, o que sempre me 
+                        traz inspiração e novas perspectivas. Passeios no parque são um dos meus passatempos favoritos, 
+                        pois me permitem relaxar e apreciar a beleza da natureza.
+                    </p>
+                    <p>
+                        Essas experiências pessoais e paixões 
+                        influenciam e enriquecem meu trabalho como artesã. Cada peça que crio é um reflexo do meu amor 
+                        pelo artesanato e das diversas inspirações que encontro no meu dia a dia. Seja bem-vindo(a) ao meu mundo!
+                    </p>
+                </div>
             </div>
+            
         </section>
 
         <section id="produtos">
             <article class="tricotin">
-                <h2>Tricotin</h2>
-                <p>
-                    O tricotin, também conhecido por     
-                    i-cord, é um tipo de tricô que foi criado pela inglesa expert em tricô, Elizabeth Zimmermann.
-                </p>
-
-                <p>
-                    Essa técnica que envolve um trabalho delicado, é capaz de gerar peças lindas que vão desde enfeites de porta para quarto de bebê, até acessórios de moda.
-                </p>
-
-                <p>
-                    Com o tricotin é possível fazer diversos nomes em formas diferentes.
-                </p>
-
-
-                <div class="prod">
-                    <div class="produto">
-                        <img src="IMG/tricotin1.png" alt="Imagem de um tricotin de estrela">
-                        <p>Preço: R$ 79,90</p>
-                        <button>Comprar</button>
-                    </div>
+                <div data-aos="fade-down">
+                    <h2>Tricotin</h2>
+                    <p>
+                        O tricotin, também conhecido por     
+                        i-cord, é um tipo de tricô que foi criado pela inglesa expert em tricô, Elizabeth Zimmermann.
+                    </p>
     
-                    <div class="produto">
-                        <img src="IMG/tricotin2.png" alt="Imagem de um tricotin de jardim florido">
-                        <p>Preço: R$ 79,90</p>
-                        <button>Comprar</button>
+                    <p>
+                        Essa técnica que envolve um trabalho delicado, é capaz de gerar peças lindas que vão desde enfeites de porta para quarto de bebê, até acessórios de moda.
+                    </p>
+    
+                    <p>
+                        Com o tricotin é possível fazer diversos nomes em formas diferentes.
+                    </p>
+                </div>
+                
+                <div data-aos="fade-up">
+                    <div class="prod">
+                        <div class="produto">
+                            <img src="IMG/tricotin1.png" alt="Imagem de um tricotin de estrela">
+                            <p>Preço: R$ 79,90</p>
+                            <button>Comprar</button>
+                        </div>
+        
+                        <div class="produto">
+                            <img src="IMG/tricotin2.png" alt="Imagem de um tricotin de jardim florido">
+                            <p>Preço: R$ 79,90</p>
+                            <button>Comprar</button>
+                        </div>
                     </div>
                 </div>
                 
-
                 <div class="guirlanda">
                     <h2>Guirlanda e tricotin</h2>
                     <div class="guirlanda-paragrafo">
@@ -215,7 +223,10 @@
 
         <p class="footer">&copy; 2024. Todos os direitos reservados Thais Artes.</p>
     </footer>
-    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 </body>
 </html>
