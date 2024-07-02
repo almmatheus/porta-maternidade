@@ -31,6 +31,11 @@ header nav ul li a{
     font-size: 25px;
 }
 
+.fundo {
+    width: 100%;
+    height: 100%;
+}
+
 /* Estilo da section sobre */
 #sobre{
     background-color: #EDE2D7;
@@ -181,6 +186,7 @@ header nav ul li a{
     align-items: center;
     margin: 30px 20px;
     border-radius: 5px;
+    box-shadow: 0 0 20px #79152c;
 }
 
 .produto img{
@@ -210,10 +216,11 @@ header nav ul li a{
 .produto button:hover {
     background-color: #79152c;
     color: #EDE2D7;
+    box-shadow: 0 0 20px #692B39;
 }
 
 
-/* Estilo da section entrega*/
+/* Estilo da section Toy Story*/
 .toy-story{
     background-color: #C48B7A;
     color: #fff;
