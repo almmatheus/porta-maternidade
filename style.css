@@ -32,7 +32,7 @@ header nav ul li a{
 
 /* Estilo da section sobre */
 #sobre{
-    background-color: #C48B7A;
+    background-color: #EDE2D7;
     display: flex;
     flex-wrap: wrap;
 }
@@ -50,7 +50,7 @@ header nav ul li a{
 }
 
 #sobre h1{
-    color: white;
+    color: #692B39;
     font-size: 50px;
     margin-bottom: 20px;
     text-align: center;
@@ -63,9 +63,36 @@ header nav ul li a{
 }
 
 .paragrafo p{
-    color: white;
+    color: #692B39;
     font-size: 30px;
     text-align: left;
+}
+
+/* Estilo da section dona */
+#dona {
+    background-color: #C48B7A;
+    display: flex;
+    gap: 20px;
+}
+
+#dona h2 {
+    color: #fff;
+    width: 100%;
+    font-size: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.paragrafo-dona {
+    color: #fff;
+    font-size: 25px;
+    text-align: left;
+    margin: 100px;
+}
+
+.paragrafo-dona p {
+    margin-top: 25px;
+    margin-bottom: 20px;
 }
 
 /* Estilo da section produtos - tricotin */
@@ -98,7 +125,7 @@ header nav ul li a{
 }
 
 .guirlanda-paragrafo p{
-    font-size: 30px;
+    font-size: 28px;
 }
 
 
@@ -162,6 +189,7 @@ header nav ul li a{
 
 .produto p{
     font-size: 17px;
+    padding-top: 20px;
     color: #692B39;
     text-align: center;
 }
@@ -180,9 +208,25 @@ header nav ul li a{
 
 
 /* Estilo da section entrega*/
-#entrega{
+.toy-story{
     background-color: #C48B7A;
     color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20rem;
+}
+
+.toy-story h2 {
+    width: 100%;
+    font-size: 50px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.ty-paragrafo {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: 25px;
 }
 
 /* Estilo do Footer */
