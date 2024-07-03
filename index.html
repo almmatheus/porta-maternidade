@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Porta Maternidade</title>
-    <link rel="stylesheet" href="style.css">
+    
     <link rel="icon" href="art-icon.png">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    
 </head>
 <body>
     <header>
@@ -14,11 +17,14 @@
         <nav>
             <ul>
                 <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#tricotin">Tricotin</a></li>
+                <li><a href="#luminarias">Luminárias</a></li>
+                <li><a href="#MDF">MDF</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
+    
     <main class="fundo">
         <section class="porta-maternidade">
             <div class="titulo">
@@ -51,7 +57,7 @@
                 </div>
             </div>
 
-            <div data-aos="fade-left">
+            <div data-aos="fade-up-left">
                 <div class="paragrafo-sobre">
                     <p>
                         Olá! Meu nome é Thais Almeida, tenho 40 anos e sou mãe de duas filhas incríveis. 
@@ -76,7 +82,7 @@
         </section>
 
         <section id="produtos">
-            <article class="tricotin">
+            <article class="tricotin" id="tricotin">
                 <div data-aos="fade-down">
                     <h2>Tricotin</h2>
                     <p>
@@ -141,7 +147,7 @@
                 </div>
             </article>
 
-            <article class="luminarias">
+            <article class="luminarias" id="luminarias">
                 <div data-aos="fade-down">
                     <h2>Luminárias</h2>
                     <p>
@@ -153,7 +159,9 @@
                 </div>
                 
                 <div class="prod">
-                    <div data-aos="flip-left">
+                    <div data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="1000">
                         <div class="produto">
                             <img src="IMG/luminaria2.png" alt="Luminaria temática de Rei Leão">
                             <p>Preço: R$ 99,90</p>
@@ -165,7 +173,9 @@
                         </div>
                     </div>
                     
-                    <div data-aos="flip-left">
+                    <div data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="1000">
                         <div class="produto">
                             <img src="IMG/luminaria4.png" alt="Luminaria temática de Rei Leão">
                             <p>Preço: R$ 109,99</p>
@@ -177,7 +187,9 @@
                         </div>    
                     </div>
                     
-                    <div data-aos="flip-left">
+                    <div data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="1000">
                         <div class="produto">
                             <img src="IMG/luminaria6.png" alt="Luminaria temática de flor">
                             <p>Preço: R$ 189,99</p>
@@ -190,7 +202,7 @@
                     </div>
                 </div>
             </article>
-            <article class="MDF">
+            <article class="MDF" id="MDF">
                 <div data-aos="fade-down">
                     <h2>MDF</h2>
                     <p>

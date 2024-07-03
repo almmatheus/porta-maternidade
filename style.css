@@ -2,8 +2,11 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
 
 /* Estilo geral do Header */
 header{
@@ -11,7 +14,12 @@ header{
     display: flex;
     text-align: center;
     justify-content: space-between;
-    margin-bottom: 20px;
+    position: fixed;
+    width: 100%;
+    padding: 20px 10px;
+    top: 0;
+    left: 0;
+    z-index: 999;
 }
 
 header h2{
@@ -33,17 +41,24 @@ header nav ul li a{
 
 .fundo {
     width: 100%;
-    height: 100%;
+    
 }
 
-/* Estilo da section sobre */
+section{
+    overflow: hidden;
+}
+
+
+/* Estilo da section Porta Maternidade */
 .porta-maternidade{
     background-color: #EDE2D7;
     display: flex;
     flex-wrap: wrap;
+    margin-top: 80px;
 }
 
-.porta-maternidade div{
+.porta-maternidade div,
+#sobre div{
     flex: 1;
 }
 
@@ -52,7 +67,7 @@ header nav ul li a{
 }
 
 .paragrafo{
-    margin: 100px;
+    align-content: center;
 }
 
 .porta-maternidade h1{
@@ -64,8 +79,9 @@ header nav ul li a{
 
 .titulo img{
     width: 350px;
-    margin-left: 80px;
+    margin-left: 8rem;
     border-radius: 5px;
+    justify-content: left;
 }
 
 .paragrafo p{
@@ -74,14 +90,14 @@ header nav ul li a{
     text-align: left;
 }
 
-/* Estilo da section dona */
+/* Estilo da section sobre */
 #sobre {
     background-color: #C48B7A;
     display: flex;
-    gap: 20px;
+    flex-wrap: wrap;
 }
 
-#sobre h2 {
+.titulo h2 {
     color: #fff;
     width: 100%;
     font-size: 50px;
@@ -89,15 +105,17 @@ header nav ul li a{
     text-align: center;
 }
 
+
+
 .paragrafo-sobre {
     color: #fff;
     font-size: 25px;
-    text-align: left;
-    margin: 100px;
+    text-align:justify;
+    margin-top: 8rem;
 }
 
 .paragrafo-sobre p {
-    margin: 45px auto;
+    margin: 45px;
 }
 
 /* Estilo da section produtos - tricotin */
@@ -111,6 +129,7 @@ header nav ul li a{
     text-align: center;
     font-size: 50px;
     padding-top: 40px;
+ 
 }
 
 .tricotin p{
@@ -130,7 +149,12 @@ header nav ul li a{
 }
 
 .guirlanda-paragrafo p{
-    font-size: 28px;
+    font-size: 25px;
+}
+
+.guirlanda .produto,
+.toy-story .produto {
+    margin-left: 8rem;
 }
 
 
@@ -145,6 +169,7 @@ header nav ul li a{
     text-align: center;
     font-size: 50px;
     padding-top: 40px;
+    
 }
 
 .luminarias p{
@@ -165,6 +190,7 @@ header nav ul li a{
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+
 }
 
 .MDF p{
@@ -189,7 +215,7 @@ header nav ul li a{
 }
 
 .ty-paragrafo {
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 20px;
     margin-left: 25px;
 }
