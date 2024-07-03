@@ -37,13 +37,13 @@ header nav ul li a{
 }
 
 /* Estilo da section sobre */
-#sobre{
+.porta-maternidade{
     background-color: #EDE2D7;
     display: flex;
     flex-wrap: wrap;
 }
 
-#sobre div{
+.porta-maternidade div{
     flex: 1;
 }
 
@@ -55,7 +55,7 @@ header nav ul li a{
     margin: 100px;
 }
 
-#sobre h1{
+.porta-maternidade h1{
     color: #692B39;
     font-size: 50px;
     margin-bottom: 20px;
@@ -75,13 +75,13 @@ header nav ul li a{
 }
 
 /* Estilo da section dona */
-#dona {
+#sobre {
     background-color: #C48B7A;
     display: flex;
     gap: 20px;
 }
 
-#dona h2 {
+#sobre h2 {
     color: #fff;
     width: 100%;
     font-size: 50px;
@@ -89,16 +89,15 @@ header nav ul li a{
     text-align: center;
 }
 
-.paragrafo-dona {
+.paragrafo-sobre {
     color: #fff;
     font-size: 25px;
     text-align: left;
     margin: 100px;
 }
 
-.paragrafo-dona p {
-    margin-top: 25px;
-    margin-bottom: 20px;
+.paragrafo-sobre p {
+    margin: 45px auto;
 }
 
 /* Estilo da section produtos - tricotin */
@@ -173,6 +172,33 @@ header nav ul li a{
     padding: 20px;
 }
 
+/* Estilo da section Toy Story*/
+.toy-story{
+    background-color: #C48B7A;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20rem;
+}
+
+.toy-story h2 {
+    width: 100%;
+    font-size: 50px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.ty-paragrafo {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
+
+.ty-paragrafo p {
+    margin-bottom: 20px;
+}
+
+/* Estilo dos produtos */
 .prod{
     display: flex;
     justify-content: center;
@@ -203,7 +229,6 @@ header nav ul li a{
 
 .produto button{
     background-color: #692B39;
-    color: #EDE2D7;
     width: 100px;
     padding: 10px;
     margin: 10px;
@@ -213,37 +238,15 @@ header nav ul li a{
     left: 40px;
 }
 
+.produto button a {
+    text-decoration: none;
+    color: #EDE2D7;
+}
+
 .produto button:hover {
     background-color: #79152c;
     color: #EDE2D7;
     box-shadow: 0 0 20px #692B39;
-}
-
-
-/* Estilo da section Toy Story*/
-.toy-story{
-    background-color: #C48B7A;
-    color: #fff;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20rem;
-}
-
-.toy-story h2 {
-    width: 100%;
-    font-size: 50px;
-    margin: 60px auto;
-    text-align: center;
-}
-
-.ty-paragrafo {
-    font-size: 30px;
-    margin-bottom: 20px;
-    margin-left: 25px;
-}
-
-.ty-paragrafo p {
-    margin-bottom: 20px;
 }
 
 /* Estilo do Footer */
@@ -293,4 +296,33 @@ footer p{
     text-align: center;
     border-top: 1px solid white;
     padding-top: 30px;
+}
+
+@media only screen and (max-width: 837px){
+    header{
+        display: block;
+        text-align: center;
+    }
+
+    section{
+        padding-top: 150px;
+    }
+
+    .home,
+    .sobre,
+    .contato{
+        flex-direction: column;
+    }
+
+    .texto-home,
+    .sobre img,
+    .texto-sobre,
+    .foto-contato,
+    form{
+        width: 100%;
+    }
+
+    .home img{
+        width: 50%;
+    }
 }
