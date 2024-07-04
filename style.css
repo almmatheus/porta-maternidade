@@ -16,7 +16,7 @@ header{
     justify-content: space-between;
     position: fixed;
     width: 100%;
-    padding: 20px 10px;
+    padding: 10px 10px;
     top: 0;
     left: 0;
     z-index: 999;
@@ -70,52 +70,64 @@ section{
     align-content: center;
 }
 
-.porta-maternidade h1{
+h1{
+    width: 100%;
     color: #692B39;
     font-size: 50px;
     margin-bottom: 20px;
     text-align: center;
 }
 
-.titulo img{
-    width: 350px;
-    margin-left: 8rem;
+.porta-maternidade img{
+    width: 400px;
+    margin: 0 20px 6rem 6rem;
     border-radius: 5px;
     justify-content: left;
 }
 
-.paragrafo p{
+.paragrafo{
     color: #692B39;
-    font-size: 30px;
-    text-align: left;
+    font-size: 25px;
+    text-align: justify;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 /* Estilo da section sobre */
 #sobre {
     background-color: #C48B7A;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap
 }
 
-.titulo h2 {
+#sobre h2 {
     color: #fff;
     width: 100%;
     font-size: 50px;
-    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     text-align: center;
 }
 
-
+#sobre img {
+    width: 380px;
+    position: relative;
+    left: 100px;
+    top: 20px;
+    margin-bottom: 60px;
+}
 
 .paragrafo-sobre {
     color: #fff;
     font-size: 25px;
     text-align:justify;
-    margin-top: 8rem;
+    margin-top: 5rem;
+    margin-right: 5rem;
 }
 
+.paragrafo p,
 .paragrafo-sobre p {
-    margin: 45px;
+    margin-bottom: 20px;
 }
 
 /* Estilo da section produtos - tricotin */
@@ -195,7 +207,7 @@ section{
 }
 
 .MDF p{
-    font-size: 20px;
+    font-size: 25px;
     padding: 20px;
 }
 
@@ -210,14 +222,13 @@ section{
 
 .toy-story h2 {
     width: 100%;
-    font-size: 30px;
+    font-size: 50px;
     margin: 60px auto;
     text-align: center;
 }
 
 .ty-paragrafo {
     font-size: 25px;
-    margin-bottom: 20px;
     margin-left: 25px;
 }
 
@@ -335,21 +346,11 @@ footer p{
         padding-top: 150px;
     }
 
-    .home,
     .sobre,
-    .contato{
+    .tricotin,
+    .luminarias,
+    .MDF,
+    .toy-story{
         flex-direction: column;
-    }
-
-    .texto-home,
-    .sobre img,
-    .texto-sobre,
-    .foto-contato,
-    form{
-        width: 100%;
-    }
-
-    .home img{
-        width: 50%;
     }
 }
