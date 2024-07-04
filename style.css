@@ -6,8 +6,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
 /* Estilo geral do Header */
 header{
     background-color: white;
@@ -46,6 +44,10 @@ header nav ul li a{
 
 section{
     overflow: hidden;
+    
+}
+#produtos{
+    padding: 0;
 }
 
 
@@ -111,10 +113,13 @@ h1{
 
 #sobre img {
     width: 380px;
-    position: relative;
-    left: 100px;
-    top: 20px;
+  
     margin-bottom: 60px;
+}
+
+.img-sobre{
+    display: flex;
+    justify-content: center;
 }
 
 .paragrafo-sobre {
@@ -337,6 +342,28 @@ footer p{
 }
 
 @media only screen and (max-width: 837px){
+
+    .animated {
+        /*CSS transitions*/
+        -o-transition-property: none !important;
+        -moz-transition-property: none !important;
+        -ms-transition-property: none !important;
+        -webkit-transition-property: none !important;
+        transition-property: none !important;
+        /*CSS transforms*/
+        -o-transform: none !important;
+        -moz-transform: none !important;
+        -ms-transform: none !important;
+        -webkit-transform: none !important;
+        transform: none !important;
+        /*CSS animations*/
+        -webkit-animation: none !important;
+        -moz-animation: none !important;
+        -o-animation: none !important;
+        -ms-animation: none !important;
+        animation: none !important;
+    }
+
     header{
         display: block;
         text-align: center;
@@ -351,6 +378,17 @@ footer p{
     .luminarias,
     .MDF,
     .toy-story{
+        
         flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+
+  
+    
+    .paragrafo-sobre{
+        text-align: justify ;
+        position: relative;
+        left: 40px;
     }
 }
