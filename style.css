@@ -291,7 +291,7 @@ footer{
     color: #692B39;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 footer h2{
@@ -307,9 +307,7 @@ footer p{
     text-align: center;
 }
 
-.info{
-    margin-right: 50px;
-}
+
 
 .social ul {
     display: flex;
@@ -341,9 +339,14 @@ footer p{
         text-align: center;
     }
 
+    .img-maternidade{
+        margin: 10px;
+    }
+
     section{
         padding-top: 150px;
     }
+    
 
     .sobre,
     .tricotin,
@@ -368,7 +371,4 @@ footer p{
         left: 40px;
     }
 
-    .info{
-        margin: 0;
-    }
 }
